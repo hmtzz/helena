@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- Idioma da página -->
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +11,43 @@
     <title>Site Pessoal - Helena</title>
 </head>
 <!-- Todo o conteúdo visível da página web fica dentro da tag <body> -->
-    <body>
-        <!-- Menu navegável da página fica dentro de nav -->
-        <!-- Dentro de <li> insere-se o item navegável -->
-        <!-- a tag a transforma o item em link para redirecionar a outra página/seção -->
-        <nav>
-            <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Portifólio</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-        </nav>
-    </body>
-    </html>
+
+<body>
+    <!-- Menu navegável da página fica dentro de nav -->
+    <!-- Dentro de <li> insere-se o item navegável -->
+    <!-- a tag a transforma o item em link para redirecionar a outra página/seção -->
+    <nav>
+        <ul>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Portifólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="contato">
+        <h1> Entre em contato</h1>
+
+        <div class="div-formulario">
+            <form>
+                <label for="fname">Nome:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Email:</label><br>
+                <input type="email" id="lname" name="lname">
+                <label for="lname">Telefone:</label><br>
+                <input type="tel" id="lname" name="lname">
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h1> Sobre mim</h1>
+        <p> texto</p>
+    </section>
+
+    <section id="Portifólio">
+        <p> texto2</p>
+    </section>
+</body>
+
+</html>
